@@ -31,3 +31,17 @@ def run_tests():
 # Edit this code
 def clue(word):
 
+    changedword = ""
+
+    for char in word:
+        if char in "aeiouAEIOU":
+            pass
+        else:
+            changedword = changedword + char
+
+    print(changedword)
+            
+            
+            
+            
+
